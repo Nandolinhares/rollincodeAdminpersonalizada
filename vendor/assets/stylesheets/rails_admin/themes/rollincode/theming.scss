@@ -212,7 +212,9 @@ a.navbar-brand {
   white-space: nowrap;
   color: #fff !important;
   cursor: pointer !important;
-  background: darken($secondary, 10%) !important;
+  /*background: darken($secondary, 10%) !important;*/
+    background-image: image_url('logo.png') !important;
+
 
   &:hover {
     background: darken($secondary, 10%) !important;
